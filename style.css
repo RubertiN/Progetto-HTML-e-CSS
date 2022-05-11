@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "avenir-next";
+    src: url("./assets/font/avenir-next.woff") format("woff");
+}
+
+body {
+    font-family: "avenir-next", sans-serif;
+    font-size: 18px;
+    line-height: 1.8em;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: cornflowerblue;
+    display: flex;
+    width: 100%;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.link {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.link > a {
+    margin-right: 30px;
+    margin-left:10px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.Aboutme {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 2px cornflowerblue;
+    padding: 50px;
+    max-width: 1200px;
+}
+
+.fotoprofilo {
+    padding-bottom: 20px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font: bold;
+    font-size: 50px;
+}
+
+.Skills {
+    border-bottom: solid 2px cornflowerblue;
+}
+
+.LoghiSkills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.HTMLimg {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    min-width: 120px;
+    min-height: 120px;
+}
+
+.CSSimg {
+    display: flex;
+    width: 12%;
+    height: 11%;
+    min-width: 145px;
+    min-height: 140px;
+}
+
+.Contactme {
+    border-bottom: solid 2px cornflowerblue;
+    padding: 50px;
+}
+
+.Skills {
+    padding: 50px;
+}
+
+.input .message .submit {
+    border-radius: 30px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 7px;
+}
+
+.form-row input[type="text"] {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 7px;
+}
+
+.form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    border: 1px solid #D6D9DC;
+    min-height: 100px;;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 7px;
+}
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #5995DA;
+    border:none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.form-row button:hover {
+    background-color: #76AEED;
+}
+
+@media screen and (min-width: 700px) {
+    .Aboutme {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        border-bottom: solid 2px cornflowerblue;
+        padding: 50px;
+        flex-wrap: nowrap;
+    }
+
+    .contact-form {
+        max-width: 500px;
+    }
+}
