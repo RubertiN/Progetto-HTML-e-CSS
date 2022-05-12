@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/* Piccola good practice per avere sempre un DOM almeno grande quanto lo schermo */
+html, body{
+    width: 100vw; /* vw è un parametro di lunghezza dato dalla viewport dello schermo https://www.w3schools.com/css/css_rwd_viewport.asp*/
+    min-height: 100vh; /* Come sopra */
+}
+
 @font-face {
     font-family: "avenir-next";
     src: url("./assets/font/avenir-next.woff") format("woff");
@@ -189,6 +195,8 @@ footer {
 .formcontatti {
     display: flex;
     flex-direction: column;
+    gap: 1rem; /* gap è un attributo che permette di definire uno spazio tra due nodi all'interno di un nodo flex */
+    /* A me piace usare rem o em come unità di misura perchè si basano sul font-size della pagina o dell'elemento, così scalano insieme alla pagina. https://www.w3schools.com/cssref/css_units.asp */
 }
 
 @media screen and (min-width: 700px) {
@@ -213,5 +221,24 @@ footer {
 
     .fotoprofilo {
         padding-bottom: 150px;
+    }
+}
+
+/*Aggiunta di un blocco per gestire gli schermi più piccoli di un tot, così da gestire i casi limite. */
+/*Ho tolto i margini degli elementi del footer, ma se uno vuole può anche metterli più piccoli e in colonna*/
+@media screen and (max-width: 699px){
+    .header .link{
+        flex-direction: column;
+    }
+
+    .header .link >a {
+        margin-inline: 0;
+    }
+
+    footer > *,
+    footer .social a {
+        font-size: .8rem; /* mette la font-size come l'80% del font-size del body */
+        margin-right: 0;
+        margin-left: 0;
     }
 }
