@@ -1,4 +1,4 @@
-.Skills {
+.skills {
     border-bottom: solid 2px cornflowerblue;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     padding: 50px;
 }
 
-.LoghiSkills {
+.loghi-skills {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -14,14 +14,14 @@
     padding-top: 80px;
 }
 
-.HTMLimg {
+.html-img {
     width: 10%;
     height: 10%;
     min-width: 120px;
     min-height: 120px;
 }
 
-.CSSimg {
+.css-img {
     width: 12%;
     height: 11%;
     min-width: 145px;
