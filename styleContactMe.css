@@ -1,4 +1,4 @@
-.Contactme {
+.contact-me {
     border-bottom: solid 2px cornflowerblue;
     display: flex;
     flex-direction: column;
@@ -58,7 +58,7 @@
         max-width: 500px;
     }
 
-    .formcontatti {
+    .form-contatti {
         display: flex;
         flex-direction: row;
         justify-self: center;
