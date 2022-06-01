@@ -1,4 +1,4 @@
-.Aboutme {
+.about-me {
     display: flex;
     flex-direction: column;
     border-bottom: solid 2px cornflowerblue;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.fotoprofilo {
+.foto-profilo {
     padding-bottom: 20px;
 }
 
@@ -21,7 +21,7 @@ h2 {
 }
 
 @media screen and (min-width: 700px) {
-    .Aboutme {
+    .about-me {
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
@@ -30,7 +30,7 @@ h2 {
         flex-wrap: nowrap;
     }
 
-    .fotoprofilo {
+    .foto-profilo {
         padding-bottom: 150px;
     }
 }    
