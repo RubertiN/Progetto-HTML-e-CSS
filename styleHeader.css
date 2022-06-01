@@ -1,0 +1,40 @@
+.header {
+    background-color: cornflowerblue;
+    display: flex;
+    width: 100%;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.link {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.link > a {
+    margin-right: 30px;
+    margin-left:10px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 699px){
+    .header .link {
+        flex-direction: column;
+    }
+
+    .header .link >a {
+        margin-inline: 0;
+    }
+}    
