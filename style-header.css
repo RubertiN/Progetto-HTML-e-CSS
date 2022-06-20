@@ -1,6 +1,5 @@
-.container {
+.container-fluid {
     background-color: cornflowerblue;
-    border: 1px solid black;
 }
 
 a:hover {
