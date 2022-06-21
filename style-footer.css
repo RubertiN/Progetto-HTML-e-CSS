@@ -15,10 +15,16 @@ footer {
     flex-wrap: nowrap;
 }
 
-.social>a {
+.social > a {
     color: white;
     text-decoration: none;
     padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.social > a > img {
+    padding-right: 3px;
 }
 
 .social>a:last-of-type {
