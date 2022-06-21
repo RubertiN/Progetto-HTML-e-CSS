@@ -17,12 +17,13 @@ a:hover {
 }
 
 .navbar-nav {
+    display: flex;
     align-items: center;
 }
 
 @media screen and (min-width: 768px) {
     .navbar-nav {
-       margin-right: 0px;
-       align-items: flex-end;
+        display: flex;
+        justify-content: flex-end;
     }
 }
