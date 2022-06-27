@@ -1,29 +1,5 @@
-.container-fluid {
+.nav-wrapper {
     background-color: cornflowerblue;
-    display: flex;
-    justify-content: space-between;
-}
-
-.navbar {
-    padding: 0;
-}
-
-a:hover {
-    cursor: pointer;
-}
-
-.nav-link {
-    color: white;
-}
-
-.navbar-nav {
-    display: flex;
-    align-items: center;
-    color: white;
-}
-
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-    color: white;
 }
 
 

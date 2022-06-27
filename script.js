@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+
 // Inizializzazione del componente emailjs.
 emailjs.init("h_4zSj7C_lWH4sdyV");
 
@@ -36,3 +41,4 @@ function submitFormEmail(event) {
         console.log("success", res.status);
     });
 }
+

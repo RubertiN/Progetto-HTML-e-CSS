@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, intial-scale=1.00">
     <title>Niccolo' Ruberti</title>
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    />
     <link rel="icon" type="image/me-icon" href="./assets/img/thumb-profile-start2impact-sfondotrasparente.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-header.css">
     <link rel="stylesheet" href="style-presentation.css">
@@ -20,26 +17,26 @@
 
 <!-- Header -->
 
-<nav class="navbar navbar-expand-md bg-dark sticky-top">
-    <div class="container-fluid">
-      <a href="#" class="navbar-brand"><img src="assets/img/NRLogo.png" width="50"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#about-me">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact-me">Contact me</a>
-          </li>
-      </div>
-    </div>
-  </nav>
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Logo</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="badges.html">Skills</a></li>
+            <li><a href="collapsible.html">Contact me</a></li>
+        </ul>
+        </div>
+    </nav>
+</div>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>
 
 <br>
 
@@ -149,16 +146,15 @@
 
 <footer>
     <p>© Niccolo' Ruberti</p>
-    <nav class="social">
+    <div class="social">
         <a rel="Instagram" href="https://www.instagram.com/nicco.rube/?hl=it" target="_blank">
             <img src="./assets/img/instagramlogo.png" width="17" alt="">Instagram </a>
         <a rel="Github" href="https://github.com/RubertiN" target="_blank">
             <img src="./assets/img/githublogo.png" width="17" alt="">Git Hub</a>
-    </nav>
+        </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
