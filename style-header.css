@@ -19,11 +19,12 @@ a:hover {
 .navbar-nav {
     display: flex;
     align-items: center;
+    color: white;
 }
 
-@media screen and (min-width: 768px) {
-    .navbar-nav {
-        display: flex;
-        justify-content: flex-end;
-    }
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
 }
+
+
+
