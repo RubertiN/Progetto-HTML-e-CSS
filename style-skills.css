@@ -15,22 +15,20 @@
 }
 
 .html-img {
-    width: 120px;
-    height: 120px;
-    min-width: 120px;
-    min-height: 120px;
+    width: 30%;
+
 }
 
 .css-img {
-    width: 120px;
-    height: 120px;
-    min-width: 145px;
-    min-height: 140px;
+    width: 32%;
 }
 
 .bootstrap-img {
-    width: 180px;
-    height: 180px;
+    width: 45%;
+}
+
+.sass-img {
+    width: 45%;
 }
 
 .skill-item {
