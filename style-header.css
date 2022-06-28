@@ -2,5 +2,16 @@
     background-color: cornflowerblue;
 }
 
+.brand-logo {
+    margin: 2px;
+}
+
+@media screen and (max-width: 992px) {
+    a > img {
+        height: 50px;
+    }
+}
+    
+
 
 
