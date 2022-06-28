@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-html, body {
-    width: 100vw;
-    min-height: 100vh;
-}
-
 @font-face {
     font-family: "avenir-next";
     src: url("./assets/font/avenir-next.woff") format("woff");
